@@ -49,6 +49,8 @@ LinkedList.prototype.insertAt = function (data, loc) {
     previousNode.pointer = node;
     this.length++;
 };
+// To delete element
+
 LinkedList.prototype.delete = function (data) {
     let currentNode = this.head;
     let previousNode = null;
